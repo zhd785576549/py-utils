@@ -36,6 +36,7 @@ This will return False
 |Module|Author|Date|Version|Description|
 |------|------|-----|------|-----------|
 |py_utils.validator.phone.cn|Winter|2019-10-10|1.0.0|Validator for phone number in China|
+|py_utils.valodator.email.global|zhangkun|2019-10-10|1.0.0|Validator for email address|
 
 # Requirement
 
