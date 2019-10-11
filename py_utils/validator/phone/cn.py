@@ -15,7 +15,7 @@ def mobile_valid(mobile):
     :param mobile: [str] Mobile phone number
     :return:
     """
-    r = re.match(r"^1[35789]\d{9}$", mobile)
+    r = re.match(r"^1[345789]\d{9}$", mobile)
     if r:
         return True
     else:

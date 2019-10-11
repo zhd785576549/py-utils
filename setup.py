@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
+    version="1.0.0",
     name="py_utils",
     author="Winter",
     author_email="785576549@qq.com",
@@ -14,9 +15,8 @@ setup(
     license="MIT License",
     keywords=["utils", "tools"],
     classifiers=[
-        "Development Status :: 4 - Beta",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: Apache Software License",
+        "Development Status :: Development",
+        "License :: OSI Approved :: MIT License",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
@@ -24,4 +24,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7"
     ],
+    install_requires=[
+        "pytest"
+    ]
 )
