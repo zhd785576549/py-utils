@@ -36,5 +36,5 @@ def test_ipv6():
     for i in ipv6_list:
         valid = common.ipv6_valid(i)
         if valid is False:
-            print("IPv4 address : {} unpass".format(i))
+            print("IPv6 address : {} unpass".format(i))
         assert valid == True
